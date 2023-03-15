@@ -1,0 +1,21 @@
+/* Media query for small screens */
+@media (min-width: 400px) {
+  .navbar-logo-icon{
+    height: 24px;
+  }
+  .navbar-logo-text {
+    display: block;
+  }
+}
+
+@media (min-width:670px) {
+  .navbar-menu{
+    flex: 1 1 auto;
+    justify-content: center;
+    margin-right: 120px;
+  }
+  .navbar-menu button:last-child{
+    position: absolute;
+    right: 20px;
+  }
+}
