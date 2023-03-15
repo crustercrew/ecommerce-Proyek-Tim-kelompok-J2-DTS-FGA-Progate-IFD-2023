@@ -162,3 +162,63 @@ position: absolute;
   background: #f00;
   border: 0 solid #f00;
 }
+/* body product */
+
+
+
+/* contact form */
+.contact-form {
+  height: 25%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+.title-section h1 {
+  font-size: 45px;
+}
+.title-section p {
+  margin-top: 1px;
+  margin-bottom:30px;
+}
+.contact-index{
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 400px;
+  height: 10px;
+  margin-top: -5px;
+  margin-bottom: 20px;
+  padding: 20px;
+  font-size: 18px;
+  border:1px solid #08496b;
+  border-radius: 5px;
+}
+
+textarea {
+  width: 400px;
+  height: 150px;
+  margin-top: -5px;
+  margin-bottom: 20px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #08496b;
+  border-radius: 5px;
+}
+
+.contact-submit {
+  background-color: #08496b;
+  color: rgb(255, 254, 254);
+  width: 400px;
+  height: 5px;
+  cursor: pointer;
+  line-height: 2px;
+  border-radius: 5px;
+  margin-top: -5px;
+}
+
+.contact-submit:active {
+  background-color: #0a2a3b;
+}
